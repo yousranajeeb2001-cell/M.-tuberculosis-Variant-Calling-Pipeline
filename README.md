@@ -147,6 +147,10 @@ Non-associated variants: Several variants were identified within known resistanc
 
 
 
+### TB-Profiler summary 
+<img width="1253" height="631" alt="tbprofiler_summary" src="https://github.com/user-attachments/assets/2f162768-3fb9-43d9-a039-9a6498b6b64d" />
+
+
 ---
 
 ## Conclusions and Limitations
