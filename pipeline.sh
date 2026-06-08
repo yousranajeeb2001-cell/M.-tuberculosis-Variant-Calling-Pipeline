@@ -26,4 +26,11 @@ samtools index output_sorted.bam
 # 6. Variant calling
 bcftools mpileup -f H37Rv_ref_sequence.fasta output_sorted.bam -o output.bcf
 bcftools call -mv -Ov -o variants.vcf output.bcf
+grep -v "^#" variants.vcf | wc -l
+
+# 7. Resistance profiling
+# TB-Profiler v6.7.0 run via web interface 
+
+# 8. Visualization
+# BAM and VCF files loaded into IGV manually for inspection of rpoB and gyrA loci
 
