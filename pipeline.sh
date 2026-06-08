@@ -26,3 +26,4 @@ samtools index output_sorted.bam
 # 6. Variant calling
 bcftools mpileup -f H37Rv_ref_sequence.fasta output_sorted.bam -o output.bcf
 bcftools call -mv -Ov -o variants.vcf output.bcf
+
