@@ -6,7 +6,7 @@ Whole-genome sequencing analysis of a *Mycobacterium tuberculosis* clinical isol
 
 ## Background
 
-*Mycobacterium tuberculosis* is the causative agent of tuberculosis (TB). It is a leading infectious disease responsible for approximately 10.4 million cases globally in 2016, including 490,000 multidrug-resistant TB (MDR-TB) cases (WHO, 2017). Its ability to persist and develop resistance to antibiotics makes it important to study at the genomic level.
+*Mycobacterium tuberculosis* is the causative agent of tuberculosis (TB). It is a leading infectious disease responsible for approximately  10.7 million cases globally in 2024, including 1.23 million deaths, with multidrug-resistant TB remaining a major public health threat (WHO, 2026). Its ability to persist and develop resistance to antibiotics makes it important to study at the genomic level.
 
 The H37Rv strain (NC_000962.3) is the standard reference genome for *M. tuberculosis*. Whole-genome sequencing (WGS) of clinical isolates allows comparison against this reference to identify variants that may contribute to drug resistance.
 
@@ -28,6 +28,26 @@ Resistance-associated genes include:
 ---
 
 ## Pipeline
+
+## Pipeline Overview
+
+```
+SRA Reads (SRR38742949)
+         ↓
+      FastQC
+         ↓
+   Trimmomatic
+         ↓
+      BWA-MEM
+         ↓
+  SAMtools (sort/index)
+         ↓
+      BCFtools
+         ↓
+    TB-Profiler
+         ↓
+  IGV Validation
+```
 
 ### 1. Download reads
 
@@ -111,6 +131,16 @@ BAM and VCF files were loaded into IGV for manual inspection of key loci (e.g. r
 
 ## Results
 
+## Results Summary
+
+| Metric | Result |
+|--------|--------|
+| Mapping rate | 98.11% |
+| Median coverage | 82× |
+| Variants detected | 1,219 |
+| Lineage | 4.6.3 |
+| Drug resistance | None detected |
+
 Sequencing quality: 98.11% of reads mapped to H37Rv with median coverage of 82x. 
 
 Variants identified: 1,219 variants detected relative to H37Rv.
@@ -161,7 +191,7 @@ Some variants were found in resistance-associated genes, but they were classifie
 
 **Limitations:**
 
-Variant calling was performed using bcftools without additional filtering steps. TB-Profiler was run via the web interface rather than command line due to a version compatibility issue on macOS (KeyError: invalid FORMAT: AD). Future work would include cross-referencing variants against ReSeqTB for more comprehensive clinical interpretation. 
+Variant calling was performed using bcftools without additional filtering steps. Therefore, the 1,219 detected variants may include false positives arising from sequencing errors or low-level contamination rather than true biological variants. TB-Profiler was run via the web interface rather than command line due to a version compatibility issue on macOS (KeyError: invalid FORMAT: AD). Future work would include cross-referencing variants against ReSeqTB for more comprehensive clinical interpretation. 
 
 ---
 
@@ -175,6 +205,7 @@ Variant calling was performed using bcftools without additional filtering steps.
 | samtools | 1.23.1 |
 | bcftools | 1.23.1 |
 | TB-Profiler | 6.7.0 |
+| macOS | Tahoe 26.4.1 (Apple M1) |
 
 ---
 
