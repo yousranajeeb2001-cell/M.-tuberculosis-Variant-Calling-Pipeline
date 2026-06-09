@@ -211,7 +211,7 @@ Variant calling was performed using bcftools without additional filtering steps.
 
 ## References
 
-1. WHO Global Tuberculosis Report 2017  
+1.World Health Organization. (2026, March 24). *Tuberculosis*. <https://www.who.int/news-room/fact-sheets/detail/tuberculosis>
 2. Phelan et al. (2019). Integrating informatics tools and portable sequencing technology for rapid detection of resistance to anti-tuberculous drugs. *Genome Medicine*, 11, 41.  
 3. ReSeqTB Platform — Critical Path Institute  
 4. Anthony M. Bolger, Marc Lohse, Bjoern Usadel. Trimmomatic: a flexible trimmer for Illumina sequence data. *Bioinformatics*, Volume 30, Issue 15, August 2014, pp. 2114–2120. https://doi.org/10.1093/bioinformatics/btu170  
