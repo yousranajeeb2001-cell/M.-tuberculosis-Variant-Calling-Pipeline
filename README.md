@@ -211,13 +211,21 @@ Variant calling was performed using bcftools without additional filtering steps.
 
 ## References
 
-1.World Health Organization. (2026, March 24). *Tuberculosis*. <https://www.who.int/news-room/fact-sheets/detail/tuberculosis>
-2. Phelan et al. (2019). Integrating informatics tools and portable sequencing technology for rapid detection of resistance to anti-tuberculous drugs. *Genome Medicine*, 11, 41.  
-3. ReSeqTB Platform — Critical Path Institute  
-4. Anthony M. Bolger, Marc Lohse, Bjoern Usadel. Trimmomatic: a flexible trimmer for Illumina sequence data. *Bioinformatics*, Volume 30, Issue 15, August 2014, pp. 2114–2120. https://doi.org/10.1093/bioinformatics/btu170  
-5. Petr Danecek et al. Twelve years of SAMtools and BCFtools. *GigaScience*, Volume 10, Issue 2, 2021, giab008. https://doi.org/10.1093/gigascience/giab008  
-6. Li H. (2013). Aligning sequence reads, clone sequences and assembly contigs with BWA using the Burrows–Wheeler transform (BWA-MEM). arXiv:1303.3997v2 
-6. Dookie, N., Rambaran, S., Padayatchi, N., Mahomed, S., & Naidoo, K. (2018). Evolution of drug resistance in Mycobacterium tuberculosis: a review on the molecular determinants of resistance and implications for personalized care. Journal of Antimicrobial Chemotherapy, 73(5), 1138–1151. https://doi.org/10.1093/jac/dkx506 
+## References
+
+1. World Health Organization. (2026, March 24). *Tuberculosis*. [https://www.who.int/news-room/fact-sheets/detail/tuberculosis](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)
+
+2. Phelan et al. (2019). Integrating informatics tools and portable sequencing technology for rapid detection of resistance to anti-tuberculous drugs. *Genome Medicine*, 11, 41. [https://doi.org/10.1186/s13073-019-0650-x](https://doi.org/10.1186/s13073-019-0650-x)
+
+3. Ezewudo, M., Borens, A., Chiner-Oms, Á., Miotto, P., Chindelevitch, L., Starks, A. M., Hanna, D., Liwski, R., Zignol, M., Gilpin, C., Niemann, S., Kohl, T. A., Warren, R. M., Crook, D., Gagneux, S., Hoffner, S., Rodrigues, C., Comas, I., Engelthaler, D. M., Alland, D., … Posey, J. (2018). Integrating standardized whole genome sequence analysis with a global *Mycobacterium tuberculosis* antibiotic resistance knowledgebase. *Scientific Reports*, 8(1), 15382. [https://doi.org/10.1038/s41598-018-33731-1](https://doi.org/10.1038/s41598-018-33731-1)
+
+4. Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: a flexible trimmer for Illumina sequence data. *Bioinformatics*, 30(15), 2114–2120. [https://doi.org/10.1093/bioinformatics/btu170](https://doi.org/10.1093/bioinformatics/btu170)
+
+5. Danecek, P. et al. (2021). Twelve years of SAMtools and BCFtools. *GigaScience*, 10(2), giab008. [https://doi.org/10.1093/gigascience/giab008](https://doi.org/10.1093/gigascience/giab008)
+
+6. Li, H. (2013). Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. *arXiv*, 1303.3997v2. [https://arxiv.org/abs/1303.3997](https://arxiv.org/abs/1303.3997)
+
+7. Dookie, N., Rambaran, S., Padayatchi, N., Mahomed, S., & Naidoo, K. (2018). Evolution of drug resistance in *Mycobacterium tuberculosis*: a review on the molecular determinants of resistance and implications for personalized care. *Journal of Antimicrobial Chemotherapy*, 73(5), 1138–1151. [https://doi.org/10.1093/jac/dkx506](https://doi.org/10.1093/jac/dkx506)
 
 
 
